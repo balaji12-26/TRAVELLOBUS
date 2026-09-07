@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets — never commit
+.env
+.env.local
+*.pem
+
+# Model weights (downloaded at runtime by ultralytics)
+*.pt
+
+# Editors / OS
+.vs/
+.vscode/
+*.sqlite
+*.sqlite-journal
+.idea/
+.DS_Store
+
+# Generated output
+cv/results.json
+cv/output*.jpg
+out*.txt
